@@ -10,4 +10,5 @@ public class SpringBootMasterClassApplication {
         SpringApplication.run(SpringBootMasterClassApplication.class, args);
     }
 
+
 }

@@ -1,5 +1,6 @@
 package fr.coyotejeje.demo.customer;
 
+import fr.coyotejeje.demo.infoapp.InfoApp;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
@@ -12,9 +13,10 @@ public class CustomerConfig {
     private Boolean useFakeCustomerRepo;
 
     @Bean
-    CommandLineRunner commandLineRunner() {
+    CommandLineRunner commandLineRunner(InfoApp infoApp) {
         return args -> {
             System.out.println("Command Line runner");
+            System.out.println(infoApp);
         };
     }
 

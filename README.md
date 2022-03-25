@@ -1,5 +1,8 @@
 # spring-boot-master-class
 
-Tutoriel d'apprentissage concernant Spring Boot (niveau avancé).
+<img src="./src/main/resources/static/logo-spring.svg" width="300">
 
-Contenu proposé par Amigoscode
+Tutoriel d'apprentissage :
+> Maîtriser Spring Boot (niveau avancé)
+
+Contenu proposé par le site : <a href="https://amigoscode.com" target="_blank">Amigoscode.com</a>
